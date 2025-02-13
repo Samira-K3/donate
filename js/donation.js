@@ -46,7 +46,7 @@ function handleDonation(buttonId, inputId, balanceId, titleId) {
     });
 }
 
-// Apply Function to Each Card
+
 handleDonation("donation-add-btn", "donateAmount", "current-amount", "noakhali-title");
 handleDonation("donation-add-money-btn", "add-donate-amount", "current-donate-amount", "feni-title");
 handleDonation("add-money-donate-btn", "add-donated-amount", "your-current-balance", "movement-title");
